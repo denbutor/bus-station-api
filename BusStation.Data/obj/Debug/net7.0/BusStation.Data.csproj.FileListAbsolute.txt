@@ -1,0 +1,12 @@
+C:\Users\Emin\RiderProjects\BusStation.Data\bin\Debug\net7.0\BusStation.Data.deps.json
+C:\Users\Emin\RiderProjects\BusStation.Data\bin\Debug\net7.0\BusStation.Data.dll
+C:\Users\Emin\RiderProjects\BusStation.Data\bin\Debug\net7.0\BusStation.Data.pdb
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\BusStation.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\BusStation.Data.AssemblyInfoInputs.cache
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\BusStation.Data.AssemblyInfo.cs
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\BusStation.Data.csproj.CoreCompileInputs.cache
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\BusStation.Data.sourcelink.json
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\BusStation.Data.dll
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\refint\BusStation.Data.dll
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\BusStation.Data.pdb
+C:\Users\Emin\RiderProjects\BusStation.Data\obj\Debug\net7.0\ref\BusStation.Data.dll

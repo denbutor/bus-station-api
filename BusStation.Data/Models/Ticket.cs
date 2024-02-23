@@ -1,6 +1,6 @@
 namespace BusStation.Data.Models;
 
-public class Ticket
+public class Ticket : BaseModel
 {
     public string PassengersName { get; set; } = string.Empty;
     public string OnlineTicket { get; set; } = string.Empty;

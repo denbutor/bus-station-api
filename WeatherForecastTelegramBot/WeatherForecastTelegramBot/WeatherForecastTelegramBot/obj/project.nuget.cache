@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QonMoLxbVwTBkZp8D0jumD1sg0YzS8kSF+2w9l3j24gxihdYiE1uuBIFJmOEdGxzrkhXDaAnQlWqYFoUNtgX+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Emin\\RiderProjects\\WeatherForecastTelegramBot\\WeatherForecastTelegramBot\\WeatherForecastTelegramBot\\WeatherForecastTelegramBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Emin\\.nuget\\packages\\telegram.bot\\20.0.0-alpha.1\\telegram.bot.20.0.0-alpha.1.nupkg.sha512"
+  ],
+  "logs": []
+}

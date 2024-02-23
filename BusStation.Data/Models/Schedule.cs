@@ -1,6 +1,6 @@
 namespace BusStation.Data.Models;
 
-public class Schedule
+public class Schedule : BaseModel
 {
     public string WeekDay { get; set; } = string.Empty;
     public DateTime DepartureTime { get; set; }

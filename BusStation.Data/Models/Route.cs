@@ -1,6 +1,6 @@
 namespace BusStation.Data.Models;
 
-public class Route
+public class Route : BaseModel
 {
     public string Start { get; set; } = string.Empty;
     public string Finish { get; set; } = string.Empty;
@@ -8,4 +8,4 @@ public class Route
     public DateTime Duration { get; set; }
     public Guid FlightId { get; set; }
     public Flight Flight { get; set; } = null!;
-}
+} 
