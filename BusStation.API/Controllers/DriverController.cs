@@ -21,11 +21,11 @@ public class DriverController : ControllerBase
         return Ok(await _service.Get());
     }
     
-    [HttpPost]
-    public async Task<ActionResult> Insert([FromBody] DriverDto modelDto)
-    {
-        return Ok(await _service.Insert(modelDto));
-    }
+    // [HttpPost]
+    // public async Task<ActionResult> Insert([FromBody] DriverDto modelDto)
+    // {
+    //     return Ok(await _service.Insert(modelDto));
+    // }
 
     [HttpDelete]
     public async Task<ActionResult> DeleteById(Guid id)

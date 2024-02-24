@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BusStation.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b150d332f233e7361c4b7100506aa0543307ad7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24d9f445d022e88a7477907218f21d2c2c0c6dfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("BusStation.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BusStation.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

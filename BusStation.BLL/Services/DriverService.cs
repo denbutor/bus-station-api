@@ -49,27 +49,27 @@ public class DriverService : IDriverService
         }
     }
 
-    public async Task<IBaseResponse<string>> Insert(DriverDto? modelDto)
-    {
-        try
-        {
-            if (modelDto is not null)
-            {
-                modelDto.Id = Guid.NewGuid();
-                
-                await _unitOfWork.DriverRepository.InsertAsync(_mapper.Map<Driver>(modelDto));
-                await _unitOfWork.SaveChangesAsync();
-
-                return CreateBaseResponse<string>("Object inserted!", StatusCode.Ok, resultsCount: 1);
-            }
-
-            return CreateBaseResponse<string>("Objet can`t be empty...", StatusCode.BadRequest);
-        }
-        catch (Exception e)
-        {
-            return CreateBaseResponse<string>(e.Message, StatusCode.InternalServerError);
-        }
-    }
+    // public async Task<IBaseResponse<string>> Insert(DriverDto? modelDto)
+    // {
+    //     try
+    //     {
+    //         if (modelDto is not null)
+    //         {
+    //             modelDto.Id = Guid.NewGuid();
+    //             
+    //             await _unitOfWork.DriverRepository.InsertAsync(_mapper.Map<Driver>(modelDto));
+    //             await _unitOfWork.SaveChangesAsync();
+    //
+    //             return CreateBaseResponse<string>("Object inserted!", StatusCode.Ok, resultsCount: 1);
+    //         }
+    //
+    //         return CreateBaseResponse<string>("Objet can`t be empty...", StatusCode.BadRequest);
+    //     }
+    //     catch (Exception e)
+    //     {
+    //         return CreateBaseResponse<string>(e.Message, StatusCode.InternalServerError);
+    //     }
+    // }
 
     public async Task<IBaseResponse<string>> DeleteById(Guid id)
     {

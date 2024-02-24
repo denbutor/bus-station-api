@@ -56,6 +56,19 @@ public class CarService : ICarService
             if (modelDto is not null)
             {
                 modelDto.Id = Guid.NewGuid();
+
+                var driverDto = new DriverDto()
+                {
+                    Id = Guid.NewGuid(),
+                    DriverPIB = string.Empty,
+                    DriverPhoneNumber = String.Empty,
+                    Mail = String.Empty,
+                    CarId = modelDto.Id
+                };
+
+                modelDto.DriverId = driverDto.Id;
+
+                await _unitOfWork.DriverRepository.InsertAsync(_mapper.Map<Driver>(driverDto));
                 
                 await _unitOfWork.CarRepository.InsertAsync(_mapper.Map<Car>(modelDto));
                 await _unitOfWork.SaveChangesAsync();
